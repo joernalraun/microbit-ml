@@ -1,4 +1,4 @@
-# Microbit Gesture Recognizer
+# Gesture Recognizer
 
 An experimental gesture recognition tool using the Microbit's accelerometer, built using [ml5js](https://learn.ml5js.org/#/reference/neural-network).  Ml5js is built on top of [TensorFlow.js](https://www.tensorflow.org/js).
 
