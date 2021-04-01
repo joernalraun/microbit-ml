@@ -34,7 +34,7 @@ async function pair(fromIndex) {
     console.log("requesting bluetooth device...");
     statusEl.innerHTML = "requesting bluetooth device...";
     const uBitDevice = await navigator.bluetooth.requestDevice({
-      filters: [{ namePrefix: "BBC micro:bit" }],
+      filters: [{ namePrefix: "Calliope mini" }],
       optionalServices: services,
     });
     uBitDevice.addEventListener(
